@@ -1,0 +1,28 @@
+{
+  "name": "lucyjs",
+  "version": "1.0.0",
+  "description": "lucy helps you sniff out issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node src/index.js",
+    "start:dev": "npm install && node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunvsarma/lucyjs.git"
+  },
+  "author": "Arun V Sarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunvsarma/lucyjs/issues"
+  },
+  "homepage": "https://github.com/arunvsarma/lucyjs#readme",
+  "devDependencies": {
+    "express": "4.17.1",
+    "body-parser": "1.19.0",
+    "typescript": "3.4.3",
+    "puppeteer": "4.0.0",
+    "puppeteer-core": "4.0.0"
+  }
+}
