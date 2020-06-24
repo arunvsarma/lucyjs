@@ -4,8 +4,9 @@
   "description": "lucy helps you sniff out issues",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && node src/index.js",
-    "start:dev": "npm install && node src/index.js",
+    "tsc": "tsc",
+    "start": "npm install && npm run tsc && node dist/app.js",
+    "start:dev": "npm install && npm run tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
     "body-parser": "1.19.0",
     "typescript": "3.4.3",
     "puppeteer": "4.0.0",
-    "puppeteer-core": "4.0.0"
+    "puppeteer-core": "4.0.0",
+    "@types/express": "4.17.6",
+    "@types/puppeteer": "3.0.0"
   }
 }
